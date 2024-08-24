@@ -1,0 +1,210 @@
+*{  margin: 0;
+    padding: 0%;
+    border: 0%;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+
+   text-align: center;
+   font-family: sans-serif;
+ 
+}
+
+
+.head {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: rgb(7, 4, 20);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    
+}
+.navbar {
+
+display: flex;
+margin-right: 10px;
+}
+
+.logo {
+
+margin-left: 30px;
+}
+
+.logo a {
+
+text-decoration: none;
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+font-size: 40px;
+}
+
+.navbar a {
+
+    display: block;
+    padding: 20px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+
+    background: rgb(61, 61, 61);
+
+}
+
+.header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+
+    height: 60vh !important;
+    background: url(img/header.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+
+    margin-bottom: 40px;
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn {
+
+display: inline-block;
+margin-top: 15px;
+padding: 10px 40px;
+border: 2px solid purple;
+color: white;
+text-decoration: none;
+background: purple;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+margin:0 10px;
+}
+
+p{
+    margin-bottom: 48px;
+    font-size: 25px;
+    color: white;
+    padding: 0 100px;
+}
+
+.content {
+
+    height: 50ph;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+
+    padding: 30px;
+    background: #1f1d1d;
+}
+
+
+
+.box-container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box{
+
+    height: 11rem;
+    width: 17rem;
+    background:#101010 ;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 2rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5)
+}
+
+.box-container .box i {
+
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: purple;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h2 {
+
+    font-size: 25px;
+    color: fuchsia;
+}
+
+.box-container .box p {
+padding: 0 15px;
+font-size: 22px;
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+
+    background: url(img/costos.jpg ) no-repeat center;
+    background-attachment: fixed;
+    text-align: center;
+    background-size: cover;}
+
+.entretenimiento {
+    background-color:#1f1d1d ;
+             
+    }
+
+ 
+  @media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+
+height: 200vh;
+
+    }
+
+
+
+  }
+
+    
